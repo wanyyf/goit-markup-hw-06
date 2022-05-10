@@ -94,7 +94,7 @@
             <div class="work-examples-img">
                     <div class="work-examples-text">
                         Десктопные приложения </div>
-                        <a href=""><img src="./images/box1.jpg" alt="планшет с клавиатурой" width="370" height="294"></a>
+                        <a href=""><img src="./images/box1.jpg" alt="планшет с клавиатурой" width="370"></a>
                     
                 
             </div>
@@ -103,7 +103,7 @@
             <div class="work-examples-img">
                    <div class="work-examples-text">
                     Мобильные приложения</div>
-                        <a href=""><img src="./images/box2.jpg" alt="ноутбук с телефоном" width="370" height="294"></a>
+                        <a href=""><img src="./images/box2.jpg" alt="ноутбук с телефоном" width="370" ></a>
                    
                 
             </div>
@@ -112,7 +112,7 @@
             <div class="work-examples-img">
                    <div class="work-examples-text">
                     Дизайнерские решения </div>
-                        <a href=""><img src="./images/box3.jpg" alt="планшет с цветовой гаммой" width="370" height="294"></a>
+                        <a href=""><img src="./images/box3.jpg" alt="планшет с цветовой гаммой" width="370"></a>
                    
             </div>
         </li>
@@ -248,13 +248,70 @@
                         </svg></a></li>
             </ul>
         </div>
+            <form>
+                <label>
+                    <span class="footer-label-text">Подпишитесь на рассылку</span>
+                    <input class="footer-input" placeholder="E-mail" name="sub-email" type="email">
+                </label>
+                
+                <button type="submit" class="hero-button">Подписаться<svg class="send-footer-icon" width="24" height="24">
+                    <use href="./images/spryte.svg#icon-send"></use>
+                </svg>
+            </button>
+                
+                
+               
+                
+            </form>
+        
 
     </div>
 </footer>
 <div class="backdrop is-hidden" data-modal is-hidden>
     <div class="modal-backdrop">
+        <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="form">
+            <label class="modal-label">
+                <span class="text-label">Имя</span>
+                <input type="text" class="label-input" name="name">
+                <svg width="18" height="18" class="label-icon">
+                    <use href="./images/spryte.svg#icon-person-black" ></use>
+                </svg>
+            </label>
+            <label class="modal-label">
+                <span class="text-label">Телефон</span>
+                <input type="tel" class="label-input" name="telephone">
+                <svg width="18" height="18" class="label-icon">
+                    <use href="./images/spryte.svg#icon-phone-black"></use>
+                </svg>
+            </label>
+            <label class="modal-label">
+                <span class="text-label">Почта</span>
+                    <input type="email" class="label-input" name="e-mail">
+                    <svg width="18" height="18" class="label-icon">
+                        <use href="./images/spryte.svg#icon-email-black"></use>
+                    </svg>
+            </label>
+            <label class="maodal-label">
+                <span class="text-label">Комментарий</span>
+                <textarea name="comment" placeholder="Введите текст" class="text-area" id="comment" rows="10">
+                </textarea>
+            </label>
+            <label class="modal-label checkbox-label ">
+               
+                <input type="checkbox" name="check" class="label-input-checkbox" >
+                <span class="custom-check">
+                    <svg width="11" height="8">
+                        <use href="./images/spryte.svg#icon-vector"></use>
+                    </svg>
+                </span>
+                Соглашаюсь с рассылкой и принимаю&nbsp;
+ <a class="label-link" href="">Условия договора</a> 
+            </label>
+            <button class="hero-button btn-label" type="submit">Отправить</button>
+        </form>
     <button type="button"  class="modal-backdrop-button" data-modal-close>
-        <svg width="30" height="30">
+        <svg width="11" height="11">
             <use href="./images/spryte.svg#icon-close" ></use>
         </svg>
     </button>
